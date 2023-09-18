@@ -6,7 +6,6 @@ use accounts::PasswordFeedback;
 
 
 fn main() {
-    println!("Hello, world!");
     let mut pass: String = String::new();
     std::io::stdin().read_line(&mut pass).expect("oh no!");
     let result : PasswordFeedback = check_password_strength(pass.trim().to_string());
