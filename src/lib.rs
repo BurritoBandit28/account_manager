@@ -1,7 +1,7 @@
 
 pub struct PasswordFeedback {
-    pub(crate) message : String,
-    pub(crate) code : u8
+    pub message : String,
+    pub code : u8
 }
 
 pub fn check_password_strength(pswd: String) -> PasswordFeedback {
