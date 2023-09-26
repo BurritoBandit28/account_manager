@@ -4,7 +4,7 @@ pub struct PasswordFeedback {
     pub code : u8
 }
 
-pub fn check_password_strength(pswd: String) -> PasswordFeedback {
+pub fn check_password_strength(pswd: &String) -> PasswordFeedback {
 
     // A list of commonly used passwords
     let common_passwords : Vec<&str> = vec!["p4ssword","p4ss0rd"];
