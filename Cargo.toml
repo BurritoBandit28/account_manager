@@ -1,5 +1,5 @@
 [package]
-name = "account_manager"
+name = "password_validator"
 version = "0.1.0"
 edition = "2021"
 
